@@ -6,68 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Nur Systemschrift = rechtlich unkritisch -->
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      background-color: #f4f6f4;
-      color: #1f2d1f;
-      line-height: 1.6;
-    }
+ <style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f6f4;
+    color: #1f2d1f;
+    line-height: 1.6;
+  }
 
-    header {
-      background-color: #2f6b3f;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
+  header {
+    background-color: #2f6b3f;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
 
-    header h1 {
-      margin: 0;
-      font-size: 2.4em;
-    }
+  footer {
+    background-color: #e3e8e3;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
 
-    header p {
-      font-size: 1.1em;
-      margin-top: 10px;
-    }
+  a {
+    color: #2f6b3f;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 30px 20px;
-    }
+  /* 👇 HIER Punkt 2 einfügen */
+  nav {
+    margin-top: 20px;
+  }
 
-    h2 {
-      color: #2f6b3f;
-      margin-top: 0;
-    }
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-    .box {
-      background: #ffffff;
-      border-radius: 8px;
-      padding: 25px;
-      margin-bottom: 25px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    footer {
-      background-color: #e3e8e3;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-    }
-
-    a {
-      color: #2f6b3f;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
+ 
 </head>
 
 <body>
@@ -140,17 +124,3 @@
 </div>
 </body>
 </html>
-nav {
-  margin-top: 20px;
-}
-
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
